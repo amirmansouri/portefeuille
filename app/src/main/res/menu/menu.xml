@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Mandat_national"
+        android:title="Mandat national"
+
+        />
+    <item
+        android:id="@+id/Mandat_organisme"
+        android:title="Mandat organisme"
+
+        />
+    <item
+        android:id="@+id/Mandat_International"
+        android:title="Mandat International"
+
+        />
+</menu>
