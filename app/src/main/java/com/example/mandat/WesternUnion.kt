@@ -42,16 +42,6 @@ class WesternUnion : AppCompatActivity() {
                 val pays1 = it.child("pays").value
                 pays = pays1.toString()
 // put data to confirmation_mandat
-
-
-//            myIntent = Intent(this, Confirmation_Mandat::class.java)
-//            intent.putExtra("codeOperateur", codeOperateur)
-//            intent.putExtra("pays", pays)
-//            intent.putExtra("montant", montant)
-//            intent.putExtra("codeW",code)
-//            intent.putExtra("pinW",pin)
-//            startActivity(intent)
-//********************************
              val codeOp = ""
                myIntent = Intent(this, Confirmation_Mandat::class.java)
                myIntent.putExtra("codeOperateur", codeOperateur)
