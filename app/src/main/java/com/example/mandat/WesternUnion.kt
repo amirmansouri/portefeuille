@@ -12,13 +12,10 @@ import java.util.jar.Manifest
 
 
 class WesternUnion : AppCompatActivity() {
-
      private   lateinit var  myIntent:Intent
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_western_union)
-
         val buttonW = findViewById<Button>(R.id.buttonW) as Button
         val codeW = findViewById<EditText>(R.id.codeW) as EditText
         val pinw = findViewById<EditText>(R.id.pinW) as EditText
