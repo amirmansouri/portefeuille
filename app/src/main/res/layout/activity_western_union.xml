@@ -5,24 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".WesternUnion"
-  android:background="@drawable/west5"
+  android:background="@drawable/west"
     >
 
     <TextView
-        android:background="@drawable/west4"
+
         android:id="@+id/textView3"
         android:layout_width="277dp"
         android:layout_height="63dp"
         android:fontFamily="monospace"
-android:textColor="@color/black"
         android:gravity="center"
         android:text="Vous allez encaisser un mandat Western Union"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.207" />
+        app:layout_constraintVertical_bias="0.317" />
 
     <EditText
 
@@ -39,10 +39,10 @@ android:textColor="@color/black"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintVertical_bias="0.323" />
 
     <EditText
-        
+
         android:id="@+id/pinW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,10 +53,10 @@ android:textColor="@color/black"
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/codeW"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.291" />
+        app:layout_constraintVertical_bias="0.525" />
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -70,21 +70,21 @@ android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pinW"
-        app:layout_constraintVertical_bias="0.337" />
+        app:layout_constraintVertical_bias="0.456" />
 
     <Button
         android:id="@+id/buttonW"
-        android:layout_width="117dp"
-        android:layout_height="92dp"
-        android:layout_marginBottom="60dp"
-        android:background="@drawable/money"
-        android:text=""
+        android:layout_width="197dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="16dp"
+
+        android:text="Verification"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
+
         app:layout_constraintStart_toStartOf="parent"
-
-
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
         tools:ignore="UnknownId" />
 
@@ -99,8 +99,8 @@ android:textColor="@color/black"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.977"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048" />
+        app:layout_constraintVertical_bias="0.025" />
 </androidx.constraintlayout.widget.ConstraintLayout>
